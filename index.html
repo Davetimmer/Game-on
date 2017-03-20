@@ -13,6 +13,11 @@
     <!-- Own CSS -->
     <link rel="stylesheet" type="text/css" href="files/css/style.css">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Adamina|Alike|Cinzel|Cormorant+Garamond|Crimson+Text|EB+Garamond|Gilda+Display|Libre+Baskerville|Lora|Merriweather|Neuton|Noto+Serif|Old+Standard+TT|PT+Serif|Playfair+Display|Playfair+Display+SC|Roboto+Slab|Slabo+27px|Sorts+Mill+Goudy|Vidaloka" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|News+Cycle|Nunito|Poppins|Quicksand" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -61,20 +66,27 @@
             <div class="col-lg-12 center-block">
                 <h1>Movie Guessing Game</h1>
                 <div class="col-md-5 center-block">
-                    <h3>Have fun with your friends, or on your own, and test your movie knowledge! Can you guess which movie we are talking about?</h3>
+                    <h3 id="intro-text">Have fun with your friends and test your movie knowledge! Can you guess which movie we are talking about?</h3>
                 </div>
+                <button id="startButton" type="submit" class="btn btn-default">Start playing!</button>
                 <br>
-<!--                 <button type="submit" class="btn btn-default">Start playing!</button> -->
-                <input type="text" name="Guess the movie" placeholder="Guess the movie">
+                  <div id="gaming">
+                  <form id="userGuess">
+                    <input id="userInput" type="text" name="Guess the movie" placeholder="Guess the movie"">
+                    <!-- <h4 id="scores">Score:<p id="score"></p></h4> -->
+                  </form>
 
-                <br>
-                <br>
-                <h4>Storyline</h4>
-                <p><em>"A teenage girl risks everything when she falls in love with a vampire."</em></p>
-                <h4>Keywords</h4>
-                <p>vampire, love, blood, school, high school</p>
-                <h4>Actors</h4>
-                <p>Kristen Stewart, Sarah Clarke, Matt Bushell</p>
+                  <h1>Hints</h1>
+
+                  <br>
+                  <h4>Keywords</h4>
+                  <p id="keywords"></p>
+                  <h4>Actors</h4>
+                  <p id="cast"></p>
+
+                  <h4>Genres</h4>
+                  <p id="genres"></p>
+                  </div>
 
                 <!-- <form class="form-inline">
                   <div class="form-group">
