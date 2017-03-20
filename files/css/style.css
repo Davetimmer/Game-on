@@ -1,13 +1,46 @@
+/* Fonts
+
+font-family: 'Slabo 27px', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Lora', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Old Standard TT', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Vidaloka', serif;
+font-family: 'Sorts Mill Goudy', serif;
+font-family: 'Neuton', serif;
+font-family: 'Adamina', serif;
+font-family: 'Gilda Display', serif;
+font-family: 'Alike', serif;
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'News Cycle', sans-serif;
+
+*/
+
 html {
   width: 100%;
   height: 100%;
 }
 
 body {
-    background: url("") no-repeat center center;
+    background: url("http://www.wallpaperup.com/uploads/wallpapers/2014/03/18/301966/big_thumb_50c2239a88b5336315269c0ac72a8e46.jpg") no-repeat center center;
     min-height: 100%;
     min-width: 100%;
     background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar-default {
@@ -23,8 +56,28 @@ body {
     margin-top: 50px;
 }
 
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'News Cycle', sans-serif;
+}
+
+#scores {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 22px;
+}
+
 .center-block {
-  float:none;
+    float:none;
 }
 
 h3 {
@@ -32,7 +85,8 @@ h3 {
 }
 
 input {
-    padding: 15px;
+    color: black;
+    padding: 12px;
     border: none;
     border-bottom: 1px solid #aaa;
     width: 250px;
