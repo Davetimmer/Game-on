@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>TS Challenge 3 - Guessing Game</title>
+    <title>TS Challenge 3 - WORLD Guessing Game</title>
 
     <!-- Bootstrap -->
     <link href="files/css/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="world.html">Guessing Game</a>
+          <a class="navbar-brand" href="#">Guessing Game</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -42,8 +42,8 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Soccer Guessing Game</a></li>
-                <li><a href="world.html">World Guessing Game</a></li>
+                <li><a href="index.html">Soccer Guessing Game</a></li>
+                <li><a href="#">World Guessing Game</a></li>
                 <li><a href="#">Music Guessing Game</a></li><!--
                 <li role="separator" class="divider"></li>
                 <li><a href="#">Info</a></li> -->
@@ -59,22 +59,26 @@
     <section id="game-section" class="container-fluid">
         <div class="row">
             <div class="col-lg-12 center-block">
-                <h1>Movie Guessing Game</h1>
+                <h1>World Guessing Game</h1>
                 <div class="col-md-5 center-block">
-                    <h3>Have fun with your friends, or on your own, and test your movie knowledge! Can you guess which movie we are talking about?</h3>
+                    <h3>Alright! Now, let's see how good you are at guessing the countries. Can you guess from those pictures what country it is?</h3>
                 </div>
                 <br>
 <!--                 <button type="submit" class="btn btn-default">Start playing!</button> -->
-                <input type="text" name="Guess the movie" placeholder="Guess the movie">
+                <input id="input" type="text" name="Guess the movie" placeholder="Guess the country">
+                <button id="generate_new" class="btn btn-default" type="button">I am lucky!</button>
 
-                <br>
-                <br>
-                <h4>Storyline</h4>
-                <p><em>"A teenage girl risks everything when she falls in love with a vampire."</em></p>
-                <h4>Keywords</h4>
-                <p>vampire, love, blood, school, high school</p>
-                <h4>Actors</h4>
-                <p>Kristen Stewart, Sarah Clarke, Matt Bushell</p>
+               <div id="photo_container" class="col-lg-12 center-block">
+                 <img class="images" src="">
+                 <img class="images" src="">
+                 <img class="images" src="">
+                 <img class="images" src="">
+                 <img class="images" src="">
+                 <img class="images" src="">
+                 <img class="images" src="">
+                 
+
+               </div>
 
                 <!-- <form class="form-inline">
                   <div class="form-group">
@@ -96,7 +100,7 @@
     <script src="files/js/bootstrap.min.js"></script>
 
     <!-- Own JS -->
-    <script src="files/js/script.js"></script>
+    <script src="files/js/world.js"></script>
 
   </body>
 </html>

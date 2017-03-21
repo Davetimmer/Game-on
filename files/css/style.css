@@ -38,3 +38,10 @@ input {
     width: 250px;
     text-align: center;
 }
+
+#photo_container { 
+  margin-top: 20px;  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
