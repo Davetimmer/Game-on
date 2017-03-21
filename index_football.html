@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>TS Challenge 3 - Guessing Game</title>
+
+    <!-- Bootstrap -->
+    <link href="files/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Own CSS -->
+    <link rel="stylesheet" type="text/css" href="files/css/style.css">
+
+    <!-- Own JS -->
+<!--     <script type="text/javascript" src="files/js/football-api.js"></script> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-custom">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="Logo.png" id="logo"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+<!--             <li><a href="#">Home</a></li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Games <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Movie Guessing Game</a></li>
+                <li><a href="#">World Guessing Game</a></li>
+                <li><a href="#">Music Guessing Game</a></li><!--
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Info</a></li> -->
+              </ul>
+            </li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- Main/Game Section -->
+    <section id="game-section" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 center-block">
+                <h1>Football Player Guessing Game</h1>
+                <div class="col-md-5 center-block">
+                    <h3>Have fun with your friends, or on your own, and test your football knowledge! Can you guess which player we are talking about?</h3>
+                </div>
+                <br>
+<!--                 <button type="submit" class="btn btn-default">Start playing!</button> -->
+                <form>
+                	<input type="text" name="Guess the player" placeholder="Guess the player" id="answer">
+                </form>
+                <br>
+                <br>
+                <div id="api-data"></div>
+                <h4>Nationailty</h4>
+                <div id="nationality"></div>
+                <h4>Position</h4>
+                <div id="position"></div>
+                <h4>Market Value</h4>
+                <div id="market-value"></div>
+
+                <!-- <form class="form-inline">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInput" placeholder="Guess the movie">
+                  </div>
+                  <br>
+                  <br>
+                  <button type="submit" class="btn btn-default">Confirm</button>
+                </form> -->
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main/Game Section -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="files/js/bootstrap.min.js"></script>
+
+    <!-- Own JS -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+	<script src="files/js/angular-footballdata-api-factory.js"></script>
+    <script type="text/javascript" src="files/js/football-api.js"></script>
+
+  </body>
+</html>
