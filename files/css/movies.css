@@ -35,7 +35,7 @@ html {
 }
 
 body {
-    background: url("http://www.wallpaperup.com/uploads/wallpapers/2014/03/18/301966/big_thumb_50c2239a88b5336315269c0ac72a8e46.jpg") center center;
+    background: url("https://images5.alphacoders.com/542/542019.jpg") center center;
     min-height: 100%;
     min-width: 100%;
     background-size: cover;
@@ -115,6 +115,7 @@ input {
 
 .panel {
     width: 350px;
+    opacity: 0.8;
 }
 
 .panel-heading:hover {

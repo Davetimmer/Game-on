@@ -64,6 +64,7 @@ input {
     border-bottom: 1px solid #aaa;
     width: 250px;
     text-align: center;
+    background: transparent;
 }
 
 button {
