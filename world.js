@@ -16,8 +16,8 @@ $(document).ready(function() {
   $('#generate_new').click(function() {
     var guessedName = $('#input').val();
 
-    if (guessedName === targetCountryName) {
-      alert("You've guessed it right, well done! Now guess the next one...");
+    if (guessedName.toLowerCase() === targetCountryName.toLowerCase()) {
+      alert("You've guessed it right, well done! Let's see how good you are for the next guess");
       targetCountryName = selectRandomCountry();
       displayCountryImages(targetCountryName);
     } else {
