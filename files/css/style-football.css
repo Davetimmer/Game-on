@@ -13,7 +13,8 @@ body {
 }
 
 .panel {
-    width: 50%;
+    min-width: 300px;
+    max-width: 50%;
     margin: 20px auto;
     opacity: 0.9;
 }
@@ -75,4 +76,12 @@ input {
     border-bottom: 1px solid #aaa;
     width: 250px;
     text-align: center;
+}
+
+#calculateScore {
+    margin-bottom: 50px;
+}
+
+#showScore {
+    margin-bottom: 50px;
 }
