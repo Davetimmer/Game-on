@@ -327,26 +327,50 @@ $(document).ready(function() {
 	});
 });
 
-// $(document).ready(function() {
-// 	$(".panel-header").click(function() {
-// 		$(".panel-body", this).hide();
-// 	});	
-// });
+// Toggle the panels
 
-// $(document).ready(function() {
-// 	$(".saveScore").click(function() {
-// 		var userGuess = document.getElementById("answer1").value;				
-// 		if (userGuess === playerName) {
-// 		totalScore += 1;
-// 		} else {
-// 		totalScore = totalScore;
-// 		};	
-// 		console.log(totalScore);
-// 	})
-// })
-// $(document).ready(function() {
-// 	console.log(correctAnswers);	
-// });
+$(document).ready(function() {
+
+    $("#player1").click(function() {
+        $("#playerContent1").slideToggle("medium");
+    })
+
+    $("#player2").click(function() {
+        $("#playerContent2").slideToggle("medium");
+    })
+
+    $("#player3").click(function() {
+        $("#playerContent3").slideToggle("medium");
+    })
+
+    $("#player4").click(function() {
+        $("#playerContent4").slideToggle("medium");
+    })
+
+    $("#player5").click(function() {
+        $("#playerContent5").slideToggle("medium");
+    })
+
+    $("#player6").click(function() {
+        $("#playerContent6").slideToggle("medium");
+    })
+
+    $("#player7").click(function() {
+        $("#playerContent7").slideToggle("medium");
+    })
+
+    $("#player8").click(function() {
+        $("#playerContent8").slideToggle("medium");
+    })
+
+    $("#player9").click(function() {
+        $("#playerContent9").slideToggle("medium");
+    })
+
+    $("#player10").click(function() {
+        $("#playerContent10").slideToggle("medium");
+    })
+})
 
 
 

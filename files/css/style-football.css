@@ -13,22 +13,61 @@ body {
 }
 
 .panel {
-    min-width: 300px;
-    max-width: 50%;
+    min-width: 250px;
+    max-width: 350px;
     margin: 20px auto;
     opacity: 0.9;
 }
 
+.panel-heading:hover {
+    color: #aaa;
+}
+
+#playerContent1 {
+    display: none;
+}
+
+#playerContent2 {
+    display: none;
+}
+
+#playerContent3 {
+    display: none;
+}
+
+#playerContent4 {
+    display: none;
+}
+
+#playerContent5 {
+    display: none;
+}
+
+#playerContent6 {
+    display: none;
+}
+
+#playerContent7 {
+    display: none;
+}
+
+#playerContent8 {
+    display: none;
+}
+
+#playerContent9 {
+    display: none;
+}
+
+#playerContent10 {
+    display: none;
+}
 .navbar-default {
     background: transparent;
     border: none;
     padding: 20px 0px;
     margin-bottom: 0px;
     margin-top: 0px;
-    color: white;
-}
-
-#navbar-title {
     color: white;
 }
 
@@ -69,7 +108,7 @@ h3 {
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 h5 {

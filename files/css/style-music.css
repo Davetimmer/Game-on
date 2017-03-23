@@ -20,6 +20,10 @@ body {
     margin-top: 0px;
 }
 
+#logo {
+    height: 250%;
+}
+
 #game-section {
     text-align: center;
     margin-top: 50px;
