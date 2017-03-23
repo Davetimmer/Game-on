@@ -45,6 +45,7 @@ $(document).ready(function() {
                 $("#score").append(totalScore + "/10");
                 $("#movieContent1").slideToggle("medium");
             } else {
+                alert("Oops, wrong! Try again.")
                 totalScore = totalScore;
             };
 
@@ -82,6 +83,7 @@ $(document).ready(function() {
                 $("#score").append(totalScore + "/10");
                 $("#movieContent2").slideToggle("medium");
             } else {
+                alert("Oops, wrong! Try again.")
                 totalScore = totalScore;
             };
 
@@ -119,6 +121,7 @@ $(document).ready(function() {
                 $("#score").append(totalScore + "/10");
                 $("#movieContent3").slideToggle("medium");
             } else {
+                alert("Oops, wrong! Try again.")
                 totalScore = totalScore;
             };
 
@@ -156,6 +159,7 @@ $(document).ready(function() {
                 $("#score").append(totalScore + "/10");
                 $("#movieContent4").slideToggle("medium");
             } else {
+                alert("Oops, wrong! Try again.")
                 totalScore = totalScore;
             };
 
@@ -193,6 +197,7 @@ $(document).ready(function() {
                 $("#score").append(totalScore + "/10");
                 $("#movieContent5").slideToggle("medium");
             } else {
+                alert("Oops, wrong! Try again.")
                 totalScore = totalScore;
             };
 
@@ -230,6 +235,7 @@ $(document).ready(function() {
                 $("#score").append(totalScore + "/10");
                 $("#movieContent6").slideToggle("medium");
             } else {
+                alert("Oops, wrong! Try again.")
                 totalScore = totalScore;
             };
 
@@ -267,6 +273,7 @@ $(document).ready(function() {
                 $("#score").append(totalScore + "/10");
                 $("#movieContent7").slideToggle("medium");
             } else {
+                alert("Oops, wrong! Try again.")
                 totalScore = totalScore;
             };
 
@@ -304,6 +311,7 @@ $(document).ready(function() {
                 $("#score").append(totalScore + "/10");
                 $("#movieContent8").slideToggle("medium");
             } else {
+                alert("Oops, wrong! Try again.")
                 totalScore = totalScore;
             };
 
@@ -341,6 +349,7 @@ $(document).ready(function() {
                 $("#score").append(totalScore + "/10");
                 $("#movieContent9").slideToggle("medium");
             } else {
+                alert("Oops, wrong! Try again.")
                 totalScore = totalScore;
             };
 
@@ -378,6 +387,7 @@ $(document).ready(function() {
                 $("#score").append(totalScore + "/10");
                 $("#movieContent10").slideToggle("medium");
             } else if (userGuess.toLowerCase() != movie_original.toLowerCase()) {
+                alert("Oops, wrong! Try again.")
                 totalScore = totalScore;
                 // $("#movieContent10").slideToggle("medium");
                 // $("#score").append(totalScore + "/10")
