@@ -2,6 +2,14 @@ var teams = [338, 62, 354, 65, 66, 57, 64, 61, 5, 4, 674, 675, 678, 524, 548, 55
 var totalScore = 0;
 
 $(document).ready(function() {
+    $("#startButton").click(function() {
+        $("#startButton").fadeOut();
+        $("#gaming").fadeIn("slow");
+        $("#intro-text").fadeOut();
+    });
+});
+
+$(document).ready(function() {
 // Player One
 	var teamNumber = teams[Math.floor(Math.random() * (teams.length + 1))];
 	$.ajax({
