@@ -320,7 +320,7 @@ $(document).ready(function() {
 // Calculate final score
 		$("#calculateScore").click(function() {
 			$("#calculateScore").hide(function() {
-				$("#showScore").append("You scored " + totalScore + " our of 10!");
+				$("#showScore").append("You scored " + totalScore + " out of 10!");
 				$("#showScore").fadeIn("slow");
 			});
 		});
