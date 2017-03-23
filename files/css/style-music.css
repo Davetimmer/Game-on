@@ -65,3 +65,7 @@ input {
     width: 250px;
     text-align: center;
 }
+
+button {
+    background-color: grey;
+}
