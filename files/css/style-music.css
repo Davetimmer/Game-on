@@ -20,10 +20,6 @@ body {
     margin-top: 0px;
 }
 
-#logo {
-    height: 250%;
-}
-
 #game-section {
     text-align: center;
     margin-top: 50px;
@@ -64,9 +60,19 @@ input {
     border-bottom: 1px solid #aaa;
     width: 250px;
     text-align: center;
-    background: transparent;
 }
 
-button {
-    background-color: grey;
+#result {
+    color: black;
+    font-size: 80px;
+}
+
+#myBtn {
+    color: white;
+    background-color: green;
+}
+
+#check {
+    color: white;
+    background-color: green;
 }
